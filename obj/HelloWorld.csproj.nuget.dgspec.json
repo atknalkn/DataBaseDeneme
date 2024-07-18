@@ -60,6 +60,10 @@
             "microsoft.entityframeworkcore": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

@@ -11,6 +11,7 @@
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="microsoft.data.sqlclient" Version="5.2.1" />
     <PackageReference Include="microsoft.entityframeworkcore" Version="8.0.7" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="8.0.7" />
     
   </ItemGroup>
 
