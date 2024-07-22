@@ -1,13 +1,20 @@
 using System.Data;
 using Dapper;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 
-namespace HelloWorld.data
+namespace HelloWorld.Data
 {
     public class DataContextDapper
     {
-        private string _connectionString = "Server=localhost;Database=AtakanDatabase;TrustServerCertificate=true;Trusted_Connection=true";
-
+        // private IConfiguration _config;
+        private string? _connectionString;
+        public DataContextDapper(IConfiguration config)
+        {
+            // _config = config;
+            _connectionString = config.GetConnectionString("DefaultConnection");
+        }
+            
         public IEnumerable<T> LoadData<T>(string sql)
         {
             IDbConnection dbConnection = new SqlConnection(_connectionString);
@@ -19,19 +26,19 @@ namespace HelloWorld.data
             IDbConnection dbConnection = new SqlConnection(_connectionString);
             return dbConnection.QuerySingle<T>(sql);
         }
-        public bool ExecuteSql(string sql, object? parameters = null)
+
+        public bool ExecuteSql(string sql)
         {
             IDbConnection dbConnection = new SqlConnection(_connectionString);
-            int rowsAffected = dbConnection.Execute(sql, parameters);
-            return rowsAffected > 0;
+            return (dbConnection.Execute(sql) > 0);
         }
+
         public int ExecuteSqlWithRowCount(string sql)
         {
             IDbConnection dbConnection = new SqlConnection(_connectionString);
             return dbConnection.Execute(sql);
         }
 
-
-
+        
     }
 }

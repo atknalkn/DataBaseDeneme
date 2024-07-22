@@ -130,3 +130,14 @@ C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\obj\Debug\net8.0\refint\
 C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\obj\Debug\net8.0\HelloWorld.pdb
 C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
 C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\obj\Debug\net8.0\ref\HelloWorld.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DATABASEDENEME\obj\Debug\net8.0\HelloWorld.sourcelink.json
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Atakan ALKAN\dotnet-course-code\DataBaseDeneme\bin\Debug\net8.0\appsettings.json
